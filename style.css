@@ -1,0 +1,129 @@
+body {
+  scroll-behavior:smooth;
+}
+
+img {
+  max-width: 180px;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+.img-fluid {
+  min-width: 100%;
+}
+
+
+body header div h1 {
+  font-family: 'Fredericka the Great';
+  font-size: 390%;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.vl {
+  border-left: 2px solid rgb(35, 35, 35);
+  height: 173px;
+  width: min-content;
+  position: relative;
+  left: 50%;
+  top: 10%;
+}
+
+
+div h4 {
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 60px;
+
+}
+
+#homeicon {
+  font-size: 3em;
+  color:#FFC787;
+
+}
+
+#instaicon {
+  font-size: 50px;
+  color: #FECAC3;
+
+}
+
+.vertical {
+  border-left: 2px dotted grey;
+  height: 190px;
+  width: min-content;
+  position: relative;
+  left: 50%;
+  padding-top: 20%;
+}
+
+nav ul {
+  padding-left: 0px !important;
+  justify-items: auto;
+}
+
+nav ul li {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 30px;
+  display: inline-block;
+}
+
+nav ul li a:link {
+  color: black !important;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #FFDCE6 !important;
+  /* border-radius: 20% ; */
+  font-weight: 700 !important;
+  color: black !important;
+}
+
+nav ul li a:visited {
+  font-weight: bolder;
+  color: black !important;
+}
+
+
+nav ul li a .dropdown-item a:hover {
+  border-radius: 0% !important;
+}
+
+a.active {
+  background-color: white !important;
+  font-weight:700 !important ;
+
+}
+
+#carouselCaptions {
+  align-items: center;
+
+}
+
+div h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+div h4 a:hover {
+  color:#FFC787;
+}
+
+section h2 {
+  font-family: 'Cormorant Infant', serif ;
+  font-weight: 800;
+  font-size: 65px;
+  color: #FFC787;
+}
+
+section h3 {
+  font-family: 'Cormorant Infant', serif ;
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFC787
+}
